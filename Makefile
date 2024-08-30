@@ -3,6 +3,8 @@ CC_FLAGS= -Wall -I.
 # Linker Flags
 LD_FLAGS= -Wall -L./ 
 
+#CXX= g++
+
 # Targets
 all: libcalc test client server
 
